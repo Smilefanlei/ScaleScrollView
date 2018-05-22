@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.ray.learnscroller.MainActivity">
+
+    <com.ray.learnscroller.ScaleScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:lf_scale_view_bottomLineColor="@android:color/black"
+        app:lf_scale_view_height="10dp"
+        app:lf_scale_view_margin="8dip"
+        app:lf_scale_view_max="200"
+        app:lf_scale_view_min="0"
+        app:lf_scale_view_scaleColor="@android:color/holo_blue_bright"
+        app:lf_scale_view_textColor="@android:color/holo_green_light"
+        app:lf_scale_view_textSize="12dp"
+        app:lf_scale_view_unit="1000" />
+
+    <TextView
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@android:color/holo_red_dark" />
+
+</FrameLayout>
